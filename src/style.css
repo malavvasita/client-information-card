@@ -1,0 +1,32 @@
+.client-info-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #eaeaea;
+    padding: 40px 20px;
+    border-radius: 5px;    
+    padding: 0.5rem;
+    box-shadow: 5px 5px 25px #000;
+}
+
+.client-info-card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.client-info-image-left{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+}
+
+.client-info-description-right{
+    width: 75%;
+    border-left: 1px solid #8e7f7f;
+    padding-left: 25px;
+}
+
+.client-info-card h5{
+    margin: 1rem auto;
+}
